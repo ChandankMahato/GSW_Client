@@ -1,0 +1,56 @@
+.about {
+    width: 100vw;
+}
+
+.aboutGetYourFood {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+
+.aboutGetYourFood img {
+    width: 100vw;
+    height: calc(100vh - 2.5em);
+}
+
+.aboutGetYourFood h2 {
+    font-size: 2em;
+}
+
+.aboutText {
+    position: absolute;
+    background-color: var(--black);
+    opacity: 0.5;
+    color: var(--white);
+}
+
+.aboutGetYourFood p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+    .aboutText {
+        top: 30vh;
+        left: 5vw;
+        width: 90vw;
+    }
+
+    .aboutGetYourFood p {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    .aboutText {
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+
+    .aboutGetYourFood p {
+        font-size: 1.3em;
+    }
+
+}

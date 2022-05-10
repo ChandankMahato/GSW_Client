@@ -1,0 +1,75 @@
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+@media screen and (max-width: 650px) {
+    .banner {
+        margin-top: 4.5em;
+    }
+    .bannerImage {
+        height: calc(50vh - 4.5em);
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .banner {
+        margin-left: 0;
+        margin-top: 8.5em;
+    }
+    .bannerImage {
+        height: calc(100vh - 8.5em);
+        width: 100%;
+    }
+}
+
+.centered {
+    background-color: var(--gold);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 50rem;
+    height: 4.5rem;
+    background: #ffba6a;
+    display: grid;
+    place-items: center;
+}
+
+.centered p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 62em) {
+    .centered {
+        width: 70vw;
+        height: 4rem;
+    }
+
+    .centered p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 43em) {
+    .centered {
+        width: 90vw;
+        height: 4.5rem;
+        padding: 0 1rem;
+    }
+
+    .centered p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

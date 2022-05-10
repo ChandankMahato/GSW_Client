@@ -1,0 +1,44 @@
+
+/* //modal css */
+.modal-header{
+    padding: 5px 15px;
+    background-color: var(--dark-brown); 
+}
+
+.modal-header .close{
+    color: red;
+}
+
+.modal-body{
+    background-color:var(--white);
+}
+
+.modal-title{
+    font-size: 18px;
+    color: var(--white);
+}
+
+.modal-footer{
+    padding: 5px 15px;
+    background-color: var(--dark-brown);
+}
+
+.actionBtnContainer{
+    display: flex;
+    align-items: center;
+}
+
+.actionBtnContainer > button{
+    border: 0;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.btn-sm{
+    background-color: var(--gold-orange);
+}
+
+.btn-sm:hover{
+    background-color: var(--gray-blue);
+    color: var(--dark-brown);
+}

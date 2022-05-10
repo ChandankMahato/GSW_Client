@@ -1,0 +1,45 @@
+
+/*======================
+    404 page
+=======================*/
+
+.page_404{ 
+    text-align: center;
+    font-family: 'Arvo', serif;
+    margin-top: 0.8em;
+    margin-bottom: 2em;
+    color: #d56040;
+}
+
+.page_404  img{ 
+    width:100%;
+}
+
+.backgroundImg{
+    width: 70%;
+    margin-left: 15%;
+    background-image: url(./bgImage.gif);
+    background-position: center;
+}
+
+.h2{
+    margin-top:9.3em;
+}
+
+.fourtext{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.ContentBox a{
+    text-decoration: None;
+    padding: 10px 20px;
+    background:#d56040;
+    color: #ffffff;
+    box-shadow: gray 0px 10px 10px 0px;
+}
+
+.ContentBox a:hover{
+    background: #2b2621;
+    box-shadow: white 0px 0px 0px 0px;
+}

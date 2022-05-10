@@ -1,0 +1,136 @@
+
+.navbar-brand span{
+    color: var(--brown);
+    vertical-align: middle;
+}
+
+.fixed-top {
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-color{
+    background-color: var(--blue-white);
+}
+
+.nav-link{
+    color: var(--brown) !important;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: var(--yellow) !important;
+}
+.order{
+    color: var(--brown) !important;
+}
+
+.order:hover{
+    color: var(--yellow) !important;
+}
+
+@media screen and (min-width: 800px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .navbar-brand{
+        height: 6em;
+    }
+    .navbar-brand > img{
+        width: 5em;
+        height: 5.2em;
+        margin-right: 0.8em;
+    }
+    
+    .navbar-brand span{
+        font-size: 2em;
+    }
+    
+    .nav-link{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .navbar-brand{
+        height: 6em;
+    }
+    .navbar-brand > img{
+        width: 5em;
+        height: 5.2em;
+        margin-right: 0.8em;
+    }
+    
+    .navbar-brand span{
+        font-size: 1.6em;
+    }
+    
+    .nav-link{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .navbar-brand{
+        height: 3em;
+    }
+    .navbar-brand > img{
+        width: 2em;
+        height: 2.2em;
+        margin-right: 0.6em;
+    }
+    
+    .navbar-brand span{
+        font-size: 1.2em;
+    }
+    
+    .nav-link{
+        font-size:1em;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .navbar-brand{
+        height: 3em;
+    }
+    .navbar-brand > img{
+        width: 2em;
+        height: 2.2em;
+        margin-right: 0.6em;
+    }
+    
+    .navbar-brand span{
+        font-size: 0.8em;
+    }
+    
+    .nav-link{
+        font-size:1em;
+    }
+}
