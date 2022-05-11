@@ -5,7 +5,6 @@ import Home from './containers/Home';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PageNotFound from './containers/404';
-import Footer from './components/Footer';
 toast.configure();
 
 function App() {
@@ -27,9 +26,6 @@ function App() {
           draggable= {true}
           progress= {undefined}
           />
-      </div>
-      <div>
-        <Footer/>
       </div>
     </>
   );

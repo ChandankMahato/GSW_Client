@@ -30,7 +30,8 @@
 
 .about .row .content{
     flex: 3 1 30rem;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 .about .row .content p{
     font-size: 1rem;

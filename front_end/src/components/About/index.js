@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Carousel from 'react-gallery-carousel';
-import reactDom from 'react-dom';
 import 'react-gallery-carousel/dist/index.css';
 import img1 from './image/img1.jpg';
 import img2 from './image/img2.jpg';
@@ -28,6 +27,7 @@ const About = (props) => {
         { src: { src: img5 }, title: 'img5' }
     ]
     const images = imgGallery.map((index) => <img src={index.src} title={index.title} alt="images" />).map((index) => index.props.src);
+
     return (
         <>
             <section className="about" id="about">

@@ -21,11 +21,10 @@ const Footer = () => {
       <Box>
         <Container>
           <Row>
-          <Column>
+          <Column id="footer">
               <Heading>Services</Heading>
               <FooterLink href="#">Opening Times</FooterLink>
-              <FooterLink href="#">12 noon - 2pm &</FooterLink>
-              <FooterLink href="#">5:30 pm - 11 pm</FooterLink>
+              <FooterLink href="#">12 noon - 2pm & 5:30 pm - 11 pm</FooterLink>
               <FooterLink href="#">10% Discount on Orders over $25</FooterLink>
               <FooterLink href="#">Free deliver 3miles on order over $15</FooterLink>
             </Column>
@@ -37,28 +36,28 @@ const Footer = () => {
             </Column>
             <Column>
               <Heading>Follow Us On</Heading>
-              <FooterLink href="#">
+              <FooterLink href="#facebook">
                 <i className="fab fa-facebook-f">
                   <span style={{ marginLeft: "10px" }}>
                     Facebook
                   </span>
                 </i>
               </FooterLink>
-              <FooterLink href="#">
+              <FooterLink href="#instagram">
                 <i className="fab fa-instagram">
                   <span style={{ marginLeft: "10px" }}>
                     Instagram
                   </span>
                 </i>
               </FooterLink>
-              <FooterLink href="#">
+              <FooterLink href="#twitter">
                 <i className="fab fa-twitter">
                   <span style={{ marginLeft: "10px" }}>
                     Twitter
                   </span>
                 </i>
               </FooterLink>
-              <FooterLink href="#">
+              <FooterLink href="#youtube">
                 <i className="fab fa-youtube">
                   <span style={{ marginLeft: "10px" }}>
                     Youtube

@@ -4,6 +4,7 @@ export const Box = styled.div`
  background: var(--blue-white);
  position: absolute;
  width: 100%;
+ padding-top: 20px;
  
  @media (max-width: 1000px) {
      padding: 70px 30px;
@@ -14,9 +15,8 @@ export const Container = styled.div`
      display: flex;
      flex-direction: column;
      justify-content: center;
-     max-width: 1000px;
+     max-width: 1300px;
      margin: 0 auto;
-     /* background: red; */
  `
 
 export const Column = styled.div`
@@ -28,7 +28,7 @@ export const Column = styled.div`
 
 export const Row = styled.div`
  display: grid;
- grid-template-columns: repeat(auto-fill,
+ grid-template-columns: repeat(auto-fit,
                          minmax(185px, 1fr));
  grid-gap: 100px;
  

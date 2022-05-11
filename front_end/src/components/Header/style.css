@@ -39,7 +39,7 @@
     color: var(--yellow) !important;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
@@ -80,11 +80,11 @@
     }
     
     .navbar-brand span{
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     
     .nav-link{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 }
 
