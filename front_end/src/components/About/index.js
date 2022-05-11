@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Carousel from 'react-gallery-carousel';
 import 'react-gallery-carousel/dist/index.css';
 import img1 from './image/img1.jpg';
@@ -31,7 +31,7 @@ const About = (props) => {
     return (
         <>
             <section className="about" id="about">
-                <h1 className="heading"> <span>about</span> us </h1>
+                <h1 className="heading_about"> <span>about</span> us </h1>
 
                 <div className="row">
 

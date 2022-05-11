@@ -5,6 +5,7 @@ import About from '../../components/About';
 import { Icon } from '../../components/Icon';
 import Footer from '../../components/Footer';
 import Scroll from '../../components/Scroll/scroll';
+import { Contact } from '../../components/Contact';
 
 /**
 * @author
@@ -19,6 +20,7 @@ const Home = (props) => {
         <Banner />
         <About />
         <Icon />
+        <Contact />
         <Footer />
         <Scroll />
     </>

@@ -20,6 +20,9 @@ function Scroll() {
       top: 0,
       behavior: "smooth"
     });
+    setTimeout(function(){
+      window.location.reload(true);
+    }, 800);
   }
 
   return (

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import bannerImage from './image/food.jpg';
 import './style.css';
 

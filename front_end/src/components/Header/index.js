@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navbar, Nav, Container, } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
@@ -13,19 +13,14 @@ import menu from './assets/menu.pdf';
 
 const Header = (props) => {
 
-  function refreshPage(){
-    setTimeout(function(){
-      window.location.reload(true);
-    }, 1000);
-  }
   const renderLinks = () => {
     return (
-      <Nav onClick={refreshPage}>
+      <Nav>
         <li className="nav-item">
           <HashLink smooth to="#about"><span className="nav-link">About</span></HashLink>
         </li>
         <li className="nav-item">
-          <HashLink smooth to="#footer"><span className="nav-link">Contact Us</span></HashLink>
+          <HashLink smooth to="#contact_head"><span className="nav-link">Contact Us</span></HashLink>
         </li>
         <li className="nav-item">
           <a href = {menu} target="_blank" className="nav-link" rel="noreferrer">Menu</a>
