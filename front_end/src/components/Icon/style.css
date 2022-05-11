@@ -1,0 +1,34 @@
+.icons-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    background:
+        linear-gradient(rgb(43, 21, 21),
+            rgba(0, 0, 0, 0.5)), url('img1.jpg');
+}
+
+.icons-container .icons {
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.icons-container .icons i {
+    font-size: 4rem;
+    color: var(--gold);
+    padding-bottom: .7rem;
+}
+
+.icons-container .icons h3 {
+    color: var(--white);
+    padding-bottom: .5rem 0;
+}
+
+.icons-container .icons p {
+    color: var(--white);
+    padding-bottom: .5rem 0;
+}
