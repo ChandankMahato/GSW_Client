@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 import logo from './images/Logo/logo.png';
 import './style.css';
-import menu from './assets/menu.pdf';
 
 /**
 * @author
@@ -26,7 +25,7 @@ const Header = (props) => {
           <HashLink smooth to="#Reservation_head"><span className="nav-link">Reservation</span></HashLink>
         </li>
         <li className="nav-item">
-          <a href = {menu} target="_blank" className="nav-link" rel="noreferrer">Menu</a>
+          <a href="/menu" className="nav-link">Menu</a>
         </li>
         <li className="nav-item">
           <a href="#order"><span className="nav-link order">Order Now</span></a>

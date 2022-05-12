@@ -1,8 +1,9 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import './style.css';
 import { BsDash } from 'react-icons/bs';
-import { Bounce, toast } from 'react-toastify';
+import sendEmail from './action';
+// import { Bounce, toast } from 'react-toastify';
 
 /**
 * @author
@@ -11,23 +12,23 @@ import { Bounce, toast } from 'react-toastify';
 
 export const Contact = (props) => {
 
-    function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm(
-            'service_id',
-            'template_id',
-            e.target,
-            'user_id'
-        ).then(res => {
-            console.log(res)
-            toast.success('Thank you, your message received', { position: "top-left", transition: Bounce });
+    // function sendEmail(e) {
+    //     e.preventDefault();
+    //     emailjs.sendForm(
+    //         'service_id',
+    //         'template_id',
+    //         e.target,
+    //         'user_id'
+    //     ).then(res => {
+    //         console.log(res)
+    //         toast.success('Thank you, your message received', { position: "top-left", transition: Bounce });
 
-        }).catch(err => {
-            console.log(err)
-            toast.error('Something Went Wrong, try again', { position: "top-left", transition: Bounce });
-        }
-        );
-    }
+    //     }).catch(err => {
+    //         console.log(err)
+    //         toast.error('Something Went Wrong, try again', { position: "top-left", transition: Bounce });
+    //     }
+    //     );
+    // }
 
     return (
         <>

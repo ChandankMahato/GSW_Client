@@ -1,0 +1,18 @@
+.menupdf{
+    background-color: var(--blue-white);
+}
+
+.goBackButton{
+    z-index: 1;
+    position: fixed;
+    cursor: pointer;
+    padding: 2rem;
+    transform: rotate(135deg);
+}
+
+.goBackButton i {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--gold);
+    padding-bottom: .7rem;
+}
