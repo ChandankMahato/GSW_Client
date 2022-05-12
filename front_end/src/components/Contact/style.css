@@ -5,17 +5,25 @@
       background-size: cover;
       background-position: center;
       margin-bottom: 2rem;
+      margin-top: -2rem;
   }
 
   .heading h1 {
       font-size: 3rem;
       color: var(--brown);
-      padding: 1rem;
   }
 
   .heading h1 span {
       color: var(--gold);
   }
+
+  .contact_underline{
+    margin-top: -6rem;
+    text-align: center;
+    color: var(--gold);
+    font-size: 7rem;
+    font-weight: lighter;
+}
 
   #contact form {
       background: var(--blue-white);
@@ -39,19 +47,20 @@
       margin: 2rem 0;
       padding: 0 1rem;
       background: none;
-      height: 4rem;
+      height: 3rem;
       width: 90%;
-      font-size: 2rem;
+      font-size: 1rem;
   }
 
   #contact form .inputBox input:focus~h3,
   #contact form .inputBox input:valid~h3,
   #contact form .inputBox textarea:focus~h3,
   #contact form .inputBox textarea:valid~h3 {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       left: 6%;
       top: -.5rem;
       color: var(--gold);
+      display: block;
   }
 
   #contact form .inputBox textarea {
@@ -62,8 +71,9 @@
 
   #contact form .inputBox h3 {
       position: absolute;
-      top: 3rem;
+      top: 2.5rem;
       left: 7%;
+      display: none;
   }
 
   #contact form input[type="submit"] {
@@ -71,7 +81,7 @@
       border: none;
       border-radius: 5rem;
       color: var(--brown);
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       font-weight: bold;
       text-transform: capitalize;
       letter-spacing: .2rem;
@@ -79,9 +89,9 @@
       position: relative;
       z-index: 1;
       overflow: hidden;
-      height: 4rem;
+      height: 3rem;
       width: 12rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       margin-left: 4%;
       background: var(--brown);
       color: var(--blue-white);

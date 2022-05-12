@@ -7,6 +7,7 @@ import img3 from './image/img3.jpg';
 import img4 from './image/img4.jpg';
 import img5 from './image/img5.jpg';
 import './style.css';
+import {BsDash} from 'react-icons/bs';
 
 /**
 * @author
@@ -32,6 +33,7 @@ const About = (props) => {
         <>
             <section className="about" id="about">
                 <h1 className="heading_about"> <span>about</span> us </h1>
+                <h2 className="about_underline"><BsDash/></h2>
 
                 <div className="row">
 

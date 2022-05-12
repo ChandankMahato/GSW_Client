@@ -6,6 +6,7 @@ import { Icon } from '../../components/Icon';
 import Footer from '../../components/Footer';
 import Scroll from '../../components/Scroll/scroll';
 import { Contact } from '../../components/Contact';
+import { Reservation } from '../../components/Reservation';
 
 /**
 * @author
@@ -20,6 +21,7 @@ const Home = (props) => {
         <Banner />
         <About />
         <Icon />
+        <Reservation />
         <Contact />
         <Footer />
         <Scroll />

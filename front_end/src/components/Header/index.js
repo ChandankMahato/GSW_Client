@@ -23,6 +23,9 @@ const Header = (props) => {
           <HashLink smooth to="#contact_head"><span className="nav-link">Contact Us</span></HashLink>
         </li>
         <li className="nav-item">
+          <HashLink smooth to="#Reservation_head"><span className="nav-link">Reservation</span></HashLink>
+        </li>
+        <li className="nav-item">
           <a href = {menu} target="_blank" className="nav-link" rel="noreferrer">Menu</a>
         </li>
         <li className="nav-item">

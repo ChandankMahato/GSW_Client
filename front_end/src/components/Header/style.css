@@ -39,7 +39,7 @@
     color: var(--yellow) !important;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
@@ -55,16 +55,16 @@
     }
     
     .navbar-brand span{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     
     .nav-link{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 1200px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
@@ -80,11 +80,11 @@
     }
     
     .navbar-brand span{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     
     .nav-link{
-        font-size: 1.3em;
+        font-size: 1em;
     }
 }
 
